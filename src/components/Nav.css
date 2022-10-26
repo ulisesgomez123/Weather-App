@@ -1,0 +1,15 @@
+#logoClima {
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+}
+.active {
+  color:aliceblue;
+}
+
+#hola{
+font-size: 18px;
+}
+.activo{
+  color:rgb(28, 95, 202) !important;
+}

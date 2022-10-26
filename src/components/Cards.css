@@ -1,0 +1,8 @@
+.cards {
+  display: flex;
+ flex-wrap: wrap;
+  align-items: stretch;
+}
+#bloked{
+  font-size: 20px;
+}

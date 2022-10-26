@@ -1,0 +1,13 @@
+.inputSearchBar {
+    border-radius: 15px 0 0 15px;
+    width: 300px;
+    font-size: 18px;
+}
+.btn{
+    border-radius: 0px 15px 15px 0px;  
+    width: 100px;
+    background-color:rgb(119, 204, 252);
+    font-weight: bold;
+    color:blue;
+    font-size: 18px;
+}

@@ -1,0 +1,21 @@
+.j{
+    background: url(https://th.bing.com/th/id/R.b84968ea01bbb1a8dbb28d77a94c007f?rik=RGDXqSCF9V6zxg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-GIeZ7lnNYHc%2fUmk9_G_kLdI%2fAAAAAAAAAKE%2fn3sLPMrhUNc%2fs1600%2fLos-mas-Hermosos-Paisajes-Naturales_03.jpg&ehk=v6Iqp%2bhI1uUT93Q7LmKquZVxHdFVr7%2fFxech2dfK6kc%3d&risl=&pid=ImgRaw&r=0) fixed no-repeat center !important;
+    background-size: cover !important;
+    
+    
+   
+  }
+  .About {
+    width: 400px;
+    height: 300px;
+    color:aliceblue;
+    margin-left: 900px;
+    backdrop-filter: blur(5px);
+  }
+  p{
+   padding: 0px;
+   text-align: start;
+   margin: 0px;
+   color:aliceblue;
+   font-size: 18px;
+  }
