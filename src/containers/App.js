@@ -4,7 +4,7 @@ import './App.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import {Route} from 'react-router-dom';
-import Ciudad from '../components/Ciudad.jsx';
+import Ciudad1 from '../components/Ciudad1.js';
 
 const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
@@ -47,7 +47,7 @@ function App() {
     }
   }
   return (
-    <div className="App">
+    <div className='App'>
         <Route path='/'>
           <Nav onSearch={onSearch}/>
           </Route>
@@ -60,8 +60,8 @@ function App() {
        component= {About}
        />
       <Route
-      path='/ciudad/:ciudadId'
-      render= {({match}) => <Ciudad city={onFilter(match.params.ciudadId)} />}
+      path='/ciudad1/:ciudadId'
+      render= {({match}) => <Ciudad1 city={onFilter(match.params.ciudadId)} />}
       />
     </div>
 

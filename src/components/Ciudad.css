@@ -1,0 +1,36 @@
+.hola{
+    width: 300px;
+ background-color: aqua;
+ margin-left: 500px;
+ margin-top: 50px;
+ border-radius: 20px 20px 20px 20px;
+ height: 250px;
+}
+.p1 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+.p2 {
+    padding-left: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(123, 4, 4);
+    margin: 0px;
+
+}
+.hola1{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.p3{
+    margin: 0px;
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}

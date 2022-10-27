@@ -5,4 +5,6 @@
 .row {
   display: flex;
   justify-content: center;
+  font-weight: bolder;
+  font-size: 20px;
 }

@@ -3,6 +3,7 @@ import React from "react";
 export default function Ciudad({city}) {
     return (
         <div className="ciudad">
+            
                 <div className="container">
                     <h2>{city.name}</h2>
                     <div className="info">

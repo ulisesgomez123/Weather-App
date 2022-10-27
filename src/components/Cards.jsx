@@ -1,12 +1,12 @@
 import React from 'react';
-import './Cards.css';
+import j from './Cards.module.css';
 
 import Card from './Card.jsx';
 
 export default function Cards({cities, onClose}) {
   return (
-    <div className='cards'>
-      <div id='blocked'>if you want more info about your city, click on the name of the city</div>
+    <div className={j.cards}>
+    <div className={j.info}> 👉 If you want more information about your city, click on its name 👈</div>
       {cities.map(c => <Card
           id={c.id}
           key={c.id}

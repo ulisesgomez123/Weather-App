@@ -1,0 +1,13 @@
+.cards {
+  display: flex ;
+ flex-wrap: wrap ;
+ flex-direction: row ;
+
+}
+.info{
+  font-size: 30px;
+  color: rgb(76, 75, 78);
+  font-weight: bolder;;
+  width: 1100px;
+  text-align: center;
+}
