@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../img/pronostico-del-tiempo.png'
 import SearchBar from './SearchBar.jsx';
 import './Nav.css';
-import {Link, NavLink} from 'react-router-dom';
+import  {NavLink} from 'react-router-dom';
 
 function Nav({onSearch}) {
   return (
